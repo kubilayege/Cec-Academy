@@ -5,7 +5,7 @@ using UnityEngine;
 public class BaseScript : MonoBehaviour
 {
 
-    private int a = 10;   //Başka scriptler bu değişkene erişemiyor. Editörde de gözükmüyor.
+    //private int a = 10;   //Başka scriptler bu değişkene erişemiyor. Editörde de gözükmüyor.
     public int b = 20;   // Başka scriptler bu değişkene erişebiliyor ve değerini bu objenin instance'ı için değiştirebiliyor. Editörde de gözüküyor ve değiştirilebiliyoruz.
     public bool b_ve_d_Esit_Mi = false;
 
@@ -19,7 +19,7 @@ public class BaseScript : MonoBehaviour
 
     void Start()
     {
-        a = 20; //başlangıçta değiştirebiliyoruz.
+        //a = 20; //başlangıçta değiştirebiliyoruz.
 
         mesh = this.GetComponent<MeshRenderer>(); //player objesinin MeshRenderer componentinin referans ataması.
 
