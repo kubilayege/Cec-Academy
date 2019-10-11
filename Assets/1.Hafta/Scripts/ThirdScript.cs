@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class ThirdScript : MonoBehaviour
@@ -10,12 +9,18 @@ public class ThirdScript : MonoBehaviour
 
     public BaseScript baseScriptReferance_2; //Referansı editörde sürükleyip bırakarak yaptık. Public tanımladığımız için bu şekilde yapabildik.
 
-    public int d = 0;
     
 
+    public int d = 0;
 
+    Dictionary<int, float> sözlük;
+
+    Dictionary<string, string> adsoyad;
     void Update()
     {
+     
+
+        int a = Random.Range(1, 5);
         if (baseScriptReferance_2.b != d)
         {
             if (d == baseScriptReferance_2.b)
@@ -31,4 +36,6 @@ public class ThirdScript : MonoBehaviour
 
           
     }
+
+   
 }

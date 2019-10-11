@@ -90,7 +90,9 @@ public class Movement : MonoBehaviour
         }
 
         // Hareket vektörünü rigidbody'mize ekliyoruz. Bu satır sayesinde hareket edebiliyoruz.
+        
         rb.AddForce(movementVector, ForceMode.Force);
+        // rb.MovePosition(movementVector);    
     }
 
 

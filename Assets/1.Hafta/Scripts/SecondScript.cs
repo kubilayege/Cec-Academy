@@ -10,7 +10,6 @@ public class SecondScript : MonoBehaviour
 
     ThirdScript thirdScriptReferance;
     
-
     void Start()
     {
         baseScriptReferance = gameObject.GetComponent<BaseScript>();
