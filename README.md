@@ -29,7 +29,7 @@
 
 *Scene görünümü*
 
-![Scene](images/2.hafta_0.PNG?raw=true "Scene")
+![Scene](images/2.hafta_0.PNG?raw=true "Scene_2")
 
 *Kırmızı ve mavi kürelerin işlevselliğini sağlayan C# Script görünümü.*
 
@@ -39,4 +39,16 @@
 
 ![Player](images/2.hafta_2.PNG?raw=true "Player")
 
+# 3. Hafta
+
+    ### Ders İçeriği
+    * Collision
+    * Rigidbody
+    * IEnumerators 
+    * Instantiate
+    * OnGUI (Drawing UI Elements)
+    
+*Scene görünümü*
+
+![Scene](images/3.hafta_0.gif?raw=true "Scene_3")
 
