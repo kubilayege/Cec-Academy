@@ -54,5 +54,5 @@
 
 *Spawner C# Script görünümü.*
 
-![Spawner](images/3.hafta_1.PNG?raw=true "Spawner")
+![Spawner](images/3.hafta_1.png?raw=true "Spawner")
 
