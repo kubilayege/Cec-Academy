@@ -52,3 +52,7 @@
 
 ![Scene](images/3.hafta_0.gif?raw=true "Scene_3")
 
+*Spawner C# Script görünümü.*
+
+![Spawner](images/3.hafta_1.PNG?raw=true "Spawner")
+
